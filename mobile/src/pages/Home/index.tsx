@@ -11,7 +11,7 @@ const Home = () => {
     const navigation = useNavigation();
 
     const handleOnPress = () => {
-       navigation.navigate('CreateRecord');
+        navigation.navigate('CreateRecord');
     }
 
     return (
